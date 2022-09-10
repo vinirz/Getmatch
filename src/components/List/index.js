@@ -2,11 +2,11 @@ import Player from '../Player'
 import Airtable from "airtable";
 import { useEffect, useState } from 'react';
 
-var API_SECRET_KEY = process.env.API_SECRET_KEY
+var REACT_APP_APIKEY = process.env.REACT_APP_APIKEY
 
 Airtable.configure({
     endpointUrl: 'https://api.airtable.com',
-    apiKey: API_SECRET_KEY
+    apiKey: REACT_APP_APIKEY
 });
 var base = Airtable.base('appDmW3c2wnDNUQVS');
 
