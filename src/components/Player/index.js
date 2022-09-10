@@ -1,8 +1,10 @@
 import ReactStars from "react-rating-stars-component";
 import Cookies from "js-cookie";
 
+var API_SECRET_KEY = process.env.API_SECRET_KEY
+
 var Airtable = require('airtable');
-var base = new Airtable({apiKey: 'keyNjNsFPzVcyHqza'}).base('appDmW3c2wnDNUQVS');
+var base = new Airtable({apiKey: API_SECRET_KEY}).base('appDmW3c2wnDNUQVS');
 
 var response = []
 
