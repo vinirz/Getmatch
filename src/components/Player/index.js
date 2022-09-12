@@ -29,7 +29,7 @@ function Player(props){
         // }else if (Cookies.get('voted') == 1){
         //     window.alert('Provavelmente você já votou! em breve os times serão anunciados')
         //     window.location.reload()
-        } else {
+        } else if (response.length == props.partial.length) {
             Cookies.set('voted', 1, { expires: 7 });
 
             response.forEach(element => {
