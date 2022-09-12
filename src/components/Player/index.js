@@ -26,10 +26,10 @@ function Player(props){
 
         if (response.length < props.partial.length){
             window.alert('Conclua as avaliações para continuar')
-        }else if (Cookies.get('voted') == 1){
-            window.alert('Provavelmente você já votou! em breve os times serão anunciados')
-            window.location.reload()
-        } else {
+        // }else if (Cookies.get('voted') == 1){
+        //     window.alert('Provavelmente você já votou! em breve os times serão anunciados')
+        //     window.location.reload()
+        // } else {
             Cookies.set('voted', 1, { expires: 7 });
 
             response.forEach(element => {
