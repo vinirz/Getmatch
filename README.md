@@ -31,6 +31,9 @@
 <h3 id="tecnologias" style="border-bottom:3px solid #CCCEDB; padding-bottom: 15px"> 🛠️ Tecnologias</h3>
 <p>As seguintes ferramentas foram usadas na construção do projeto:</p>
 
+#### Backend
+- [Python](https://www.python.org/) 
+- 
 #### Banco de dados
 - [Airtable](https://airtable.com/) 
 
