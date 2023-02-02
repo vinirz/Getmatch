@@ -3,7 +3,7 @@
 <br>
 <br>
 <p align="center">Getmatch ⚽ Possivel Atualização <p>
-<p align="center">  <a href="#sobre">Sobre</a> • <a href="#layout">Layout</a> • <a href="#tecnologias">Tecnologias</a> •  <a href="#autor">Autor</a> • </p>
+<p align="center">  <a href="#sobre">Sobre</a> • <a href="#layout">Layout</a> • <a href="#tecnologias">Tecnologias</a> •  <a href="#autor">Autor</a> </p>
 <br>
 <h3 id="sobre" style="border-bottom:3px solid #CCCEDB; padding-bottom: 15px">📌 Sobre</h3>
 <p>"Getmatch" é uma aplicação criada com react.js e tem como objetivo sanar um problema pessoal, os times mal balanceados em partidas. 
@@ -53,7 +53,7 @@
 
 - [Editor: VS Code](https://code.visualstudio.com/) 
 - [Extensão: Thunder Client](https://www.thunderclient.com/) 
--  [Protótipo: Figma](https://www.figma.com/) 
+- [Protótipo: Figma](https://www.figma.com/) 
 
 <br>
 <h3 id="autor" style="border-bottom:3px solid #CCCEDB; padding-bottom: 15px">🦸 Autor</h3>
