@@ -1,70 +1,76 @@
-# Getting Started with Create React App
+<img src="https://i.ibb.co/5GCFS0j/Captura-de-tela-2023-02-02-130717.png" style="border-bottom:3px solid #CCCEDB; padding-bottom: 15px">
+<p align="center">disponivel em: <a href="https://getmatch.vercel.app/">https://getmatch.vercel.app/</a></p>
+<br>
+<br>
+<p align="center">Getmatch ⚽ Possivel Atualização <p>
+<p align="center">  <a href="#sobre">Sobre</a> • <a href="#layout">Layout</a> • <a href="#tecnologias">Tecnologias</a> •  <a href="#autor">Autor</a> • <a href="#licenca">Licença</a> </p>
+<br>
+<h3 id="sobre" style="border-bottom:3px solid #CCCEDB; padding-bottom: 15px">📌 Sobre</h3>
+<p>"Getmatch" é uma aplicação criada com react.js e tem como objetivo sanar um problema pessoal, os times mal balanceados em partidas. 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+1- Inicialmente o site recolhe avaliações anônimas sobre os jogadores da partida e armazena no banco de dados (airtable). 
 
-## Available Scripts
+2- Posteriormente, basta fazer uma média das avaliações e atribuir essa média ao seu respectivo jogador. 
 
-In the project directory, you can run:
+3- Por último, basta sortear os times de modo que a média geral seja equivalente
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+</p>
+<br>
+<h3 id="layout" style="border-bottom:3px solid #CCCEDB; padding-bottom: 15px"> 🎨 Layout</h3>
+<p>Todo o layout/assets foram feitos no figma  
+</p>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![enter image description here](https://i.ibb.co/5GCFS0j/Captura-de-tela-2023-02-02-130717.png)
 
-### `npm test`
+![enter image description here](https://i.ibb.co/X8hYfQt/airtable.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![enter image description here](https://i.ibb.co/mX338Nr/gmpython.png)
 
-### `npm run build`
+<br>
+<h3 id="tecnologias" style="border-bottom:3px solid #CCCEDB; padding-bottom: 15px"> 🛠️ Tecnologias</h3>
+<p>As seguintes ferramentas foram usadas na construção do projeto:</p>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#### Banco de dados
+- [Airtable](https://airtable.com/) 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+#### Frontend
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- [React.js](https://reactjs.org/) 
+- [Html5](https://developer.mozilla.org/pt-BR/docs/Web/HTML) 
+-  [CSS3](https://developer.mozilla.org/pt-BR/docs/Web/CSS) 
+- [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/javascript) 
 
-### `npm run eject`
+#### Hospedagem
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- [Vercel](https://vercel.com/) 
+-  [Github](https://github.com/) 
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+#### Utilitários
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- [Editor: VS Code](https://code.visualstudio.com/) 
+- [Extensão: Thunder Client](https://www.thunderclient.com/) 
+-  [Protótipo: Figma](https://www.figma.com/) 
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<br>
+<h3 id="autor" style="border-bottom:3px solid #CCCEDB; padding-bottom: 15px">🦸 Autor</h3>
 
-## Learn More
+<div>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<img src="https://i.ibb.co/B6B9hLJ/Mask-group.png" style="height: 250px">
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<a href="https://www.instagram.com/vinirz11/" style="text-align: center; width: 100%;">Vinicius Reis - Instagram</a>
+<div>
 
-### Code Splitting
+<a href="mailto:vrzotech@gmail.com">
+<img src="https://i.ibb.co/bvmCX5b/badgemail.png">
+</a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<a href="https://www.instagram.com/vinirz11/">
+<img src="https://i.ibb.co/2qLJ5Wd/badgeinsta.png">
+</a>
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+</div>
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<br>
